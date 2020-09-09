@@ -3,7 +3,7 @@ use rgpg::{decrypt, encrypt};
 
 fn main() {
   let matches = clap_app!(rgpg =>
-		(version: "1.0")
+		(version: "0.1.0")
 		(author: "Coccifixio")
 		(about: "Makes encrypting and decrypting files with gpg more ergonomic")
 		(@subcommand encrypt =>
